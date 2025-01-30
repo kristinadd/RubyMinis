@@ -13,6 +13,15 @@ class RotateArray
     end
     nums.inspect
   end
+  
+  def self.rotate(nums, k)
+    return if nums.empty? || k.zero?
+  
+    effective_k = k % nums.size
+    return if effective_k.zero?
+  
+    nums.replace(nums[-effective_k..] + nums[0...nums.size - effective_k])
+  end
 end
 
 
