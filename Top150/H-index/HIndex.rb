@@ -18,6 +18,10 @@ class HIndex
     end
     return h
   end
+
+  def h_index(citations)
+    citations.sort.reverse.each_with_index.count(&:>)
+  end
 end
 
 citations = [3,0,6,1,5]
