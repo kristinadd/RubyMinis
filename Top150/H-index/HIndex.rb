@@ -19,11 +19,11 @@ class HIndex
     return h
   end
 
-  def h_index(citations)
+  def self.h_index_3(citations)
     citations.sort.reverse.each_with_index.count(&:>)
   end
 end
 
 citations = [3,0,6,1,5]
 citations2 = [1,3,1]
-puts HIndex.h_index(citations2)
+puts result = HIndex.h_index_3(citations2)
