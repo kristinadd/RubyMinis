@@ -1,7 +1,7 @@
 require 'set'
 
 class RandomizedSet
-  # set attr_reader to access random_set from outside the class
+  # set attr_reader to access set from outside the class
   attr_reader :set
 
   def initialize()
@@ -46,3 +46,4 @@ end
  puts obj.insert(10)
  puts obj.set
  puts obj.get_random
+
