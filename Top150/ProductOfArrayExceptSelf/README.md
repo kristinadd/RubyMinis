@@ -20,16 +20,21 @@ Constraints:
 
 2 <= nums.length <= 105
 -30 <= nums[i] <= 30
-The input is generated such that answer[i] is guaranteed to fit in a 32-bit integer.
+The input is generated such that answer[i] is 
+guaranteed to fit in a 32-bit integer.
  
 
-Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
+Follow up: Can you solve the problem in O(1) 
+extra space complexity? (The output array 
+does not count as extra space for space complexity analysis.)
 
-
+=========================================================================
 Clarification because the description sucks 
 
 What the Task Is Asking
-You are given an integer array nums, and you need to build a new array answer where each element answer[i] is the product of every number in nums except the one at index i.
+You are given an integer array nums, and you need to build 
+a new array answer where each element answer[i] is the 
+product of every number in nums except the one at index i.
 
 For example, if nums = [1, 2, 3, 4]:
 
